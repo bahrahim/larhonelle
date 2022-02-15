@@ -20,17 +20,17 @@ const Caroussel = () => {
         <Carousel {...Props}>
             <div className='eacCaroussel'>
                 <div>
-                    <img src={logo1}></img>
+                    <img src={logo1} alt="boutique"></img>
                 </div>
             </div>
             <div className='eacCaroussel'>
                 <div>
-                    <img src={logo2}></img>
+                    <img src={logo2} alt="boutique"></img>
                 </div>
             </div>
             <div className='eacCaroussel'>
                 <div>
-                    <img src={logo3}></img>
+                    <img src={logo3} alt="boutique"></img>
                 </div>
             </div>
         </Carousel>
