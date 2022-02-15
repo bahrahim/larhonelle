@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300');
+
+
 $colorOrange : #fb660a;
 $colorBlack  : #404f57;
 $colorClair  : #e5e0dd;
@@ -9,9 +12,12 @@ $colorGreen  : #72c02c;
 
 * {
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style-type: none;
     outline: none;
+    transition: all 0.3s linear;
     }
+

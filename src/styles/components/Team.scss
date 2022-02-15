@@ -1,0 +1,22 @@
+.teamsCards {
+
+    h2 {
+        text-align: center;
+        margin: 20px;
+        font-weight: bold;
+
+        span {
+            color: $colorGreen;
+        }
+    }
+
+    .cardsContainer {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .card {
+        gap: 3px;
+    }
+}
